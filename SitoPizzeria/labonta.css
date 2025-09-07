@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Archivo+Black&family=Lilita+One&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,200;1,200&display=swap');
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #131E30;
+}
+
+section {
+    background: #d3d3d3;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0.4, 0.4);
+    height: 50px;
+    position: sticky;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 10%;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 5px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 2%;
+    vertical-align: middle;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 1%;
+    vertical-align: middle;
+}
+
+a{
+    color: #131E30;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 10px;
+    font-size: 70%;
+    vertical-align: middle;
+}
+a:hover{
+    color: rgba(137, 38, 38, 0.897);
+    transition: all 0.3s ease-in-out;
+}
+.logo{
+    width: 15%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.footer-logo {
+    width: 100%;
+    height: auto;
+}
